@@ -5,7 +5,7 @@ export default function ProjectBox(props) {
     <div className="card p-2 m-3 col-11 col-md-5" style={{ maxWidth: "600px" }}>
       <div className="img-container">
         <img
-          class="card-img-top"
+          class="card-img-top rounded"
           alt={props.name}
           src={props.image}
           style={{
