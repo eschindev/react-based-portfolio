@@ -1,0 +1,22 @@
+import React from "react";
+import "./content.css";
+
+export default function About() {
+  return (
+    <div className="content-container">
+      <h2>About Me</h2>
+      <hr />
+      <p>
+        An analytical and solution-oriented software developer and project
+        manager with experience in professional client communication, workflow
+        automation, computer programming, data retrieval and visualization,
+        software design, web applications, and technical documentation. Skilled
+        at implementing automated workflow management tools and using reporting
+        tools to compile and leverage data, driving efficient decision making.
+        Capable of quickly grasping new concepts and making use of software
+        tools to achieve business goals. Passionate about all things related to
+        computer hardware, software, and related technologies.
+      </p>
+    </div>
+  );
+}
