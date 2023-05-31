@@ -12,7 +12,7 @@ export default function About() {
             src="./images/headshot.png"
             alt="Evan's face"
             style={{
-              border: "2px solid rgb(0, 31, 21)",
+              border: "2px solid darkgrey",
               borderRadius: "5px",
               maxWidth: "100%",
               height: "auto",
