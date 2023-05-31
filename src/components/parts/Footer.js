@@ -20,14 +20,29 @@ export default function Footer() {
         />
       </a>
       <div className="navbar-nav">
-        <a className="nav-link" href="https://github.com/eschindev">
+        <a
+          className="nav-link"
+          href="https://github.com/eschindev"
+          target="_blank"
+          rel="noreferrer"
+        >
           GitHub
         </a>
         <a
           className="nav-link"
           href="https://www.linkedin.com/in/schindlerevan/"
+          target="_blank"
+          rel="noreferrer"
         >
           LinkedIn
+        </a>
+        <a
+          className="nav-link"
+          href="https://medium.com/@eschindler1993"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Medium
         </a>
       </div>
     </nav>

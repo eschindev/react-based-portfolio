@@ -5,7 +5,12 @@ export default function Resume() {
     <div className="content-container">
       <h2>My Resume</h2>
       <hr />
-      <p>3</p>
+      <a
+        href="./images/Schindler, Evan - Resume.pdf"
+        download="Schindler, Evan - Resume.pdf"
+      >
+        Download Resume PDF
+      </a>
     </div>
   );
 }
