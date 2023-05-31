@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Contact() {
   const [formInfo, setFormInfo] = useState({
@@ -14,15 +14,34 @@ export default function Contact() {
     message: false,
   });
 
+  const [validEmail, setValidEmail] = useState(false);
+
   function submitForm(e) {
     e.preventDefault();
-    alert("Submitted!");
-    setFormInfo({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
+    console.log(
+      formInfo.name,
+      formInfo.email,
+      formInfo.subject,
+      formInfo.message
+    );
+    if (
+      !formInfo.name ||
+      !formInfo.email ||
+      !formInfo.subject ||
+      !formInfo.message
+    ) {
+      alert("Please fill all required fields.");
+    } else if (!validEmail) {
+      alert("Please enter a valid email address.");
+    } else {
+      alert("Submitted!");
+      setFormInfo({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+    }
   }
 
   function handleInputChange(e) {
@@ -30,12 +49,32 @@ export default function Contact() {
   }
 
   function handleBlur(field) {
-    if (formInfo[field] === "") {
+    if (!formInfo[field]) {
       setShowRequired({ ...showRequired, [field]: true });
+      if (field === "email") {
+        setValidEmail(true);
+      }
     } else {
       setShowRequired({ ...showRequired, [field]: false });
     }
+
+    if (field === "email" && formInfo.email) {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (emailRegex.test(formInfo.email)) {
+        setValidEmail(true);
+      } else {
+        setValidEmail(false);
+      }
+    }
   }
+
+  useEffect(() => {
+    console.log("validEmail: " + validEmail);
+  }, [validEmail]);
+
+  useEffect(() => {
+    console.log(formInfo);
+  }, [formInfo]);
 
   return (
     <div className="content-container">
@@ -57,7 +96,7 @@ export default function Contact() {
             placeholder="Enter name"
           />
           {showRequired.name && (
-            <div className="invalid-feedback">Name is required!</div>
+            <div className="mb-2 invalid-feedback">Name is required!</div>
           )}
           <label htmlFor="email">Email</label>
           <input
@@ -73,7 +112,10 @@ export default function Contact() {
             placeholder="Enter email"
           />
           {showRequired.email && (
-            <div className="invalid-feedback">Email is required!</div>
+            <div className="mb-2 invalid-feedback">Email is required!</div>
+          )}
+          {!validEmail && (
+            <div className="mb-2 invalid-feedback">Invalid email format!</div>
           )}
           <label htmlFor="subject">Subject</label>
           <input
@@ -89,7 +131,7 @@ export default function Contact() {
             placeholder="Enter subject"
           />
           {showRequired.subject && (
-            <div className="invalid-feedback">Subject is required!</div>
+            <div className="mb-2 invalid-feedback">Subject is required!</div>
           )}
           <label htmlFor="message">Message</label>
           <textarea
@@ -104,7 +146,7 @@ export default function Contact() {
             rows="3"
           ></textarea>
           {showRequired.message && (
-            <div className="invalid-feedback">Message is required!</div>
+            <div className="mb-2 invalid-feedback">Message is required!</div>
           )}
           <button
             type="submit"

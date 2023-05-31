@@ -44,7 +44,7 @@ export default function ProjectContainer() {
   return (
     <div className="project-container card-deck row justify-content-center">
       {projects.map((project) => (
-        <ProjectBox {...project} />
+        <ProjectBox key={project.name} {...project} />
       ))}
     </div>
   );
