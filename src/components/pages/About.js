@@ -14,6 +14,8 @@ export default function About() {
             style={{
               border: "2px solid darkgrey",
               borderRadius: "5px",
+              maxWidth: "100%",
+              height: "auto",
             }}
           ></img>
         </div>
