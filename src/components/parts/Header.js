@@ -40,13 +40,13 @@ export default function Header({ currentPage, handlePageChange }) {
         >
           Portfolio
         </a>
-        <a
+        {/* <a
           className={`nav-link${currentPage === "Contact" ? " active" : ""}`}
           href="#contact"
           onClick={() => handlePageChange("Contact")}
         >
           Contact
-        </a>
+        </a> */}
         <a
           className={`nav-link${currentPage === "Resume" ? " active" : ""}`}
           href="#resume"
