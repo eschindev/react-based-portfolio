@@ -4,6 +4,12 @@ import ProjectBox from "./ProjectBox";
 export default function ProjectContainer() {
   const projects = [
     {
+      name: "Actio",
+      github: "https://github.com/eschindev/activity-planner",
+      deployed: "https://actio-app.herokuapp.com/",
+      image: "./images/actio.png",
+    },
+    {
       name: "Don't Forget!",
       github: "https://github.com/eschindev/dont-forget",
       deployed: "https://dont-forget-app.herokuapp.com/",
@@ -14,6 +20,11 @@ export default function ProjectContainer() {
       github: "https://github.com/eschindev/population-guesser",
       deployed: "https://eschindev.github.io/population-guesser/",
       image: "./images/pop-pursuit.png",
+    },
+    {
+      name: "Engimetrics",
+      github: "https://github.com/eschindev/engimetrics",
+      image: "./images/engimetrics.png",
     },
     {
       name: "PWA Text Editor",

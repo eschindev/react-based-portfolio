@@ -13,7 +13,20 @@ export default function ProjectBox(props) {
           }}
         />
       </div>
-      <a href={props.deployed} target="_blank" rel="noreferrer">
+      {props.deployed ? (
+        <a href={props.deployed} target="_blank" rel="noreferrer">
+          <div className="card-img-overlay card-inverse">
+            <h3>
+              <strong>{props.name}</strong>
+            </h3>
+            <strong>
+              <a href={props.github} target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+            </strong>
+          </div>
+        </a>
+      ) : (
         <div className="card-img-overlay card-inverse">
           <h3>
             <strong>{props.name}</strong>
@@ -24,7 +37,7 @@ export default function ProjectBox(props) {
             </a>
           </strong>
         </div>
-      </a>
+      )}
     </div>
   );
 }
