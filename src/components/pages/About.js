@@ -47,8 +47,8 @@ export default function About() {
             technologies such as GraphQL, Mongoose, and MongoDB to build
             efficient APIs and manage databases effectively. Designing and
             implementing robust backend systems that support seamless user
-            experiences and optimize overall application performance bring
-            immense satisfaction to my work.
+            experiences and optimize overall application performance bring me
+            immense satisfaction.
             <br />
             In addition to my strong MERN stack skills, I have a valuable
             background in building features within custom Salesforce
