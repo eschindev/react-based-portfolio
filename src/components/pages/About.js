@@ -24,60 +24,53 @@ export default function About() {
         </div>
         <div>
           <p>
-            An analytical and solution-oriented software developer and project
-            manager with experience in professional client communication,
-            workflow automation, computer programming, data retrieval and
-            visualization, software design, web applications, and technical
-            documentation. Skilled at implementing automated workflow management
-            tools and using reporting tools to compile and leverage data,
-            driving efficient decision making. Capable of quickly grasping new
-            concepts and making use of software tools to achieve business goals.
-            Passionate about all things related to computer hardware, software,
-            and related technologies.
+            I am an analytical and solution-oriented software developer and
+            project manager with a diverse skill set in client communication,
+            workflow automation, programming, data visualization, software
+            design, web applications, and technical documentation. With a solid
+            foundation in the MERN stack and a passion for delivering
+            exceptional user experiences, I am dedicated to driving efficient
+            and impactful solutions.
             <br />
-            With a solid foundation in the MERN stack gained through my recent
-            completion of a coding bootcamp at UC Berkeley, combined with my
-            professional experience as a project and product manager, I believe
-            I possess the skills and enthusiasm to make a valuable contribution
-            to any dev team.
-            <br />
-            Throughout my coding bootcamp, I acquired proficiency in developing
-            web applications using the MERN stack. React has become my preferred
-            framework, as it empowers me to create precise and flexible user
-            interfaces based on dynamic data while minimizing redundancy through
-            reusable components. This frontend expertise, along with my passion
-            for delivering exceptional user experiences, has fueled my drive to
-            pursue a career in software development.
+            Throughout my coding bootcamp at UC Berkeley, I honed my proficiency
+            in developing web applications using the MERN stack. React has
+            become my preferred framework, empowering me to create precise and
+            flexible user interfaces based on dynamic data while minimizing
+            redundancy through reusable components. My expertise in frontend
+            development, combined with my drive for exceptional user
+            experiences, fuels my passion for pursuing a career in software
+            development.
             <br />
             While I thoroughly enjoy frontend development, my true passion lies
-            in backend web development. I have hands-on experience working with
-            SQL and NoSQL databases, and I particularly enjoy leveraging
-            technologies such as GraphQL, Mongoose, and MongoDB to build APIs
-            and manage databases efficiently. I find immense satisfaction in
-            designing and implementing robust backend systems that support
-            seamless user experiences and optimize overall application
-            performance.
+            in backend web development. I possess hands-on experience working
+            with SQL and NoSQL databases, and I thrive on leveraging
+            technologies such as GraphQL, Mongoose, and MongoDB to build
+            efficient APIs and manage databases effectively. Designing and
+            implementing robust backend systems that support seamless user
+            experiences and optimize overall application performance bring
+            immense satisfaction to my work.
             <br />
-            As a project and product manager, I have gained a deep familiarity
-            with the product development lifecycle and have worked extensively
-            in agile environments. This experience has honed my ability to
-            effectively collaborate with cross-functional teams, prioritize
-            tasks, and deliver projects on time while ensuring the highest level
-            of quality. My combined technical and managerial background enables
-            me to bridge the gap between development and business objectives,
-            making me an asset in aligning software projects with organizational
-            goals.
+            In addition to my strong MERN stack skills, I have a valuable
+            background in building features within custom Salesforce
+            environments. While working with Santa Barbara Axxess, I
+            collaborated directly with our CEO and COO to design and develop
+            data propagation and workflow automation tools. Through iterations
+            based on feedback from our sales and delivery teams, I ensured these
+            features seamlessly integrated into our business processes.
             <br />
-            One of my greatest strengths is my ability to learn quickly and
-            adapt to new technologies and frameworks. I am an avid learner who
-            constantly seeks to explore and master new systems of information.
-            This curiosity drives me to stay updated with the latest
-            advancements in software development, ensuring that I can bring
-            fresh ideas and innovative solutions to the table.
-            <br />I am genuinely passionate about software development and am
-            excited about the opportunity to contribute my skills and enthusiasm
-            to any team. I would be thrilled to be a part of a team that fosters
-            growth, encourages collaboration, and values excellence.
+            Furthermore, I played a crucial role in expanding our Salesforce
+            reporting infrastructure. Building numerous reports and dashboards
+            tailored to the specific needs of various roles and processes, I
+            empowered our teams with actionable insights and streamlined
+            decision-making processes using Salesforce's robust reporting
+            capabilities.
+            <br />
+            With my versatile skill set, passion for continuous learning, and
+            ability to adapt to new technologies, I am confident in my ability
+            to make a valuable contribution to any development team. I am
+            genuinely excited about leveraging my expertise to drive growth,
+            collaboration, and excellence in a dynamic and forward-thinking
+            company environment.
           </p>
         </div>
       </div>
