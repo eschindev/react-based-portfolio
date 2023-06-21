@@ -109,8 +109,8 @@ export default function About() {
             grew from under $1M to over $7M annually within the space of a
             year-and-a-half, and I led a number of other projects for them,
             building out their data and reporting infrastructure, unifying their
-            various internal applications with OAuth-based authentication and
-            permissioning service, and improving system scalability and
+            various internal applications around an OAuth-based authentication
+            and permissioning service, and improving system scalability and
             stability by adopting infrastructure-as-code practices throughout
             their migration to cloud-based solutions. During these projects, I
             worked closely with product owners to design and test features, and
