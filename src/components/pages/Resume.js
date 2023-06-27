@@ -2,19 +2,35 @@ import React from "react";
 
 export default function Resume() {
   const skills = [
+    "JavaScript",
     "Node",
     "React",
-    "JavaScript",
+    "Python",
+    "AWS API Gateway",
+    "AWS Lambda",
+    "AWS DynamoDB",
     "Express",
     "MySQL",
     "Sequelize",
     "MongoDB",
     "Mongoose",
+    "GraphQL",
     "HTML / CSS",
     "Bootstrap",
+    "jQuery",
+    "AJAX",
+    "RESTful APIs",
+    "Docker",
+    "Postman / Insomnia",
+    "Handlebars",
+    "JSON",
+    "IndexedDB",
+    "Service Workers",
     "MVC Architecture",
     "Progressive Web Apps",
     "Git Workflow",
+    "Jest",
+    "Heroku",
   ];
 
   return (
